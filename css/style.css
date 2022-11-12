@@ -87,6 +87,7 @@ body #rating-state-section.main-container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  display: none;
   background-color: hsl(221deg, 20%, 16%);
   border-radius: 15px;
   margin: 9.7rem 1.6rem;
