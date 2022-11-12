@@ -1,6 +1,6 @@
 #thank-you-state-section {
     @include flexBox(center, center, column);
-    // display: none;
+    display: none;
     background-color: $dark-blue-01;
     border-radius: 15px;
     margin: 9.7rem 1.6rem;
