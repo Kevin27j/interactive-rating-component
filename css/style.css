@@ -45,6 +45,19 @@ body #rating-state-section.main-container {
   align-items: center;
   flex-direction: row;
 }
+#rating-container .rating-numbers .rating-value {
+  position: relative;
+}
+#rating-container .rating-numbers .rating-value span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
 #rating-container .rating-numbers .rating-btn {
   font-family: "Overpass", sans-serif;
   border-radius: 50%;
@@ -63,7 +76,7 @@ body #rating-state-section.main-container {
   background-color: hsl(25deg, 97%, 53%);
 }
 #rating-container .rating-numbers .rating-btn:focus {
-  color: hsl(0deg, 0%, 100%);
+  color: black;
   background-color: hsl(217deg, 12%, 63%);
 }
 #rating-container .submit-btn {

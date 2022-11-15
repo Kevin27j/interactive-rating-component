@@ -4,6 +4,18 @@
     margin-bottom: .3rem;
     .rating-numbers {
         @include flexBox(space-between, center, row);
+        .rating-value {
+            position: relative;
+        }
+        .rating-value span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            appearance: none;
+
+        }
         .rating-btn {
             font-family: $overpass-font;
             border-radius: 50%;
@@ -20,10 +32,11 @@
             background-color: $orange;
         }
         .rating-btn:focus {
-            color: $white;
+            color: black;
             background-color: $light-grey;
         }
     }
+
     .submit-btn {
         font-family: $overpass-font;
         background-color: $orange;
