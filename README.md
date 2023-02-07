@@ -1,11 +1,12 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screnshots](#screnshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -14,7 +15,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Overview
 
-### The challenge
+### Challenge description
 
 Users should be able to:
 
@@ -22,6 +23,12 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
+
+### Screnshots
+
+![Desktop Design](/screenshots/desktop-design.jpg)
+![Thank you state](/screenshots/desktop-thank-you-state.jpg)
+
 
 ### Links
 
@@ -32,11 +39,11 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic HTML
 - SASS
 - Flexbox
 - Mobile-first workflow
-- Vanilla JavaScript
+- JavaScript
 
 ### What I learned
 
@@ -51,4 +58,4 @@ btn.addEventListener('click', (e) => {
 
 ## Author
 
-- Frontend Mentor - [@Kevin27j](https://www.frontendmentor.io/profile/Kevin27j)
+[Kejvin Pashaj](https://github.com/Kevin27j)
